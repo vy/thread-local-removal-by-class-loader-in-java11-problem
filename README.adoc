@@ -1,0 +1,7 @@
+https://github.com/vy/thread-local-removal-by-class-loader-in-java11-problem/actions[image:https://github.com/vy/thread-local-removal-by-class-loader-in-java11-problem/workflows/CI/badge.svg[Actions Status]]
+
+Sample project to reproduce spurious failures on Java 11 while trying to remove
+thread locals originating from a certain class loader. See
+link:src/main/java/com/vlkan/ThreadLocals.java[ThreadLocals.java] and
+link:src/test/java/com/vlkan/ThreadLocalsTest.java[ThreadLocalsTest.java] for
+the sources.
