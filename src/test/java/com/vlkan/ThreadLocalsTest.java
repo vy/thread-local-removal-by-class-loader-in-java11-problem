@@ -36,7 +36,7 @@ class ThreadLocalsTest {
         });
     }
 
-    @RepeatedTest(1_000)
+    @RepeatedTest(20_000)
     public void removeThreadLocalsForClassLoader_should_work() throws Exception {
 
         // Populate class loaders and values.
